@@ -1,0 +1,7 @@
+Much like the Python template, you don't need anyhting for now :)
+
+You might need to use pip install <whatever youre missing> if your project doesn't run in docker
+
+Make sure you're properly setting up your `venv`'s 
+
+If you don't know what I'm talking about, click go here: https://github.com/codingUnited/python-template
