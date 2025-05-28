@@ -41,7 +41,7 @@ This template helps you:
 
 ## What is Docker?
 
-Docker is a platform that uses OS-level virtualization to deliver software in packages called **containers**. Containers are isolated from one another and bundle their own software, libraries, and configuration files; they can communicate with each other through well-defined channels. This makes it easy to create, deploy, and run applications in different environments consistently.
+Docker is a platform that uses OS-level virtualization to deliver software in packages called **containers**. You can think of this continer as a lightweight, little portable box, and inside is everything your application needs to run properly. Containers are isolated from one another and bundle their own software, libraries, and configuration files; they can communicate with each other through well-defined channels. This makes it easy to create, deploy, and run applications in different environments consistently.
 
 **Some cool benefits:**
 * **Consistency:** The classic: "Well, it works on my computer" is no longer an issue!
@@ -79,13 +79,13 @@ Before you begin, ensure you have the following installed:
     git clone [https://github.com/codindUnited/docker-template.git](https://github.com/codingUnited/docker-template.git) your-docker-project
     cd your-docker-project
     ```
-    (Of course, make sure to replace `codingUnited` with the actual GitHub organization name you're using, and `your-docker-project` with your desired folder name).
+    (Of course, make sure that `codingUnited` is the actual GitHub organization name. If for some reason it's changed, this won't work. Ah, and `your-docker-project` with your desired folder name 👍).
 
 ---
 
 ## Step 2: Explore the Sample Application
 
-The `app/app.py` file contains a very basic Python HTTP server. It's designed to run inside the Docker container and serve a simple HTML page. It uses environment variables defined in the `Dockerfile` (`APP_NAME`, `GREETING_MESSAGE`) and listens on port 8000.
+The `app/app.py` file contains a very basic Python HTTP server. It's designed to run inside the Docker container and serve a simple HTML page. It uses environment variables defined in the `Dockerfile` (`APP_NAME`, `GREETING_MESSAGE`) and listens on port 8000. 
 
 ---
 
