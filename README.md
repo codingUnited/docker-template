@@ -201,7 +201,7 @@ If you have questions, run into issues, or want to learn more:
 * Ask your fellow Coding United Club members!
 * Refer to the official Docker documentation: [Docker Docs](https://docs.docker.com/)
 * Explore Docker Hub for pre-built images: [Docker Hub](https://hub.docker.com/)
-* Feel free to @ me or ask in our: [Discord](https://discord.gg/n8xYkS46MG)
+* Feel free to @ me or ask in our: [Discord](https://discord.gg/YyntRSs8JA)
 * Find more information on our: [Club Site](https://coding-united-commons.pages.dev/)
 
 ---
